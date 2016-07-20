@@ -17,7 +17,7 @@
 
 int main(int argc, char** argv) {
   if(argc != 3) {
-    std::cout << "Usage: hp <size-in-mb>" << std::endl;
+    std::cout << "Usage: hp <size-in-2mb>" << std::endl;
     return EXIT_FAILURE;
   }
   uint64_t size_in_2mb = std::stoi(argv[1]);
